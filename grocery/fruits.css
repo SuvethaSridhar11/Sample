@@ -1,0 +1,94 @@
+body{
+     margin:0;
+	 font-family:system-ui;
+	 text-align:center;
+	}
+.parallax{
+	background-image:url("title.jpg");
+	height:max-content;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+		}
+.page-title{
+	background:rgba(0,0,0,0.5);
+	text-align:center;
+	color:white;
+	padding:50px;
+	font-variant:small-caps;
+	font-size:100px;
+	font-family:fantasy;
+	lettter-spacing:20px;
+	} 
+.parallax1{
+	background:none;
+}
+.categories-title{
+	text-align:center;
+	color: slategrey;
+	padding:15px;
+	font-size:35px;
+	font-family:fantasy;
+}
+
+ .search-box{
+ border:2px slategrey;
+ border-radius:50px;
+ background:white;
+ width:500px;
+ align-items:center;
+ margin:25px;
+ }
+ .search-box:hover{
+	 box-shadow: 0 0 10px 2px #2F4F4F;
+	 border: 1px solid #2F4F4F;
+ }
+ .Search-input{
+	 width: 420px;
+	 border:none;
+	 font-size: 16px;
+	 outline:none;
+	 background:transparent;
+	 margin:15px 0 0 10px;
+ }
+ i{
+	 font-size:20px;
+	 margin:0 10px 0 0;
+ }
+ button{
+	 background: transparent;
+	 border:none;
+	 outline:none;
+ }
+.container{
+	margin:50px 50px 50px 5%;
+	width:90%;
+	text-align: center;
+}
+.categories{
+	width: max-content;
+	margin:25px;
+	border:1px solid #2F4F4F;
+	border-radius: 50px 50px 50px 50px ;
+	display:inline-block;
+}
+.categories:hover{
+	box-shadow:0 0 10px 3px #2F4F4F;
+}
+.item-image{
+	height:200px;
+	width: 200px;
+	border-radius:50px 50px 50px 50px;
+	padding:10px;
+}
+.image-title{
+	text-align:center;
+	padding:10px;
+	font-weight:bold;
+	
+}
+a{
+	text-decoration:none;
+}
+
